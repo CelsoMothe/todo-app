@@ -139,6 +139,7 @@ public class MainScreen extends javax.swing.JFrame {
 
         jPanelProjects.setBackground(java.awt.Color.white);
         jPanelProjects.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanelProjects.setMinimumSize(new java.awt.Dimension(250, 0));
 
         jLabelProjectsTitle.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabelProjectsTitle.setForeground(new java.awt.Color(0, 153, 102));
@@ -215,6 +216,7 @@ public class MainScreen extends javax.swing.JFrame {
         jListProjects.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jListProjects.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jListProjects.setFixedCellHeight(50);
+        jListProjects.setMinimumSize(new java.awt.Dimension(250, 0));
         jListProjects.setSelectionBackground(new java.awt.Color(0, 153, 102));
         jListProjects.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
